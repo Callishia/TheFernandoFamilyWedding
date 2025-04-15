@@ -5,57 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Allen & Callishia's Wedding</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Quicksand&display=swap');
+
     body {
-      font-family: 'Georgia', serif;
+      font-family: 'Quicksand', sans-serif;
       margin: 0;
-      background-color: #f9f5f0;
-      color: #333;
+      background-color: #fdf8f4;
+      color: #4a2c2a;
     }
     header {
-      background-color: #fff0f5;
+      background-color: #7b2030;
+      padding: 50px 20px;
+      text-align: center;
+      color: #fff8f0;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5em;
+      margin: 0;
+      color: #ffd9c0;
+    }
+    header p {
+      font-size: 1.3em;
+      margin-top: 10px;
+    }
+    section {
       padding: 40px 20px;
       text-align: center;
     }
-    header h1 {
-      font-size: 3em;
-      margin: 0;
-      color: #a0522d;
-    }
-    header p {
-      font-size: 1.2em;
-      color: #8b5c40;
-    }
-    section {
-      padding: 30px 20px;
-      text-align: center;
-    }
     section h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-      color: #a0522d;
+      font-size: 2.5em;
+      margin-bottom: 25px;
+      font-family: 'Playfair Display', serif;
+      color: #7b2030;
     }
     .event {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+      border: 2px solid #d8bfa0;
+      border-radius: 15px;
+      padding: 20px;
+      background: #fff8f4;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .event-date {
       font-weight: bold;
-      color: #8b5c40;
+      color: #a0454f;
+      font-size: 1.2em;
+      margin-bottom: 5px;
     }
-    .rsvp-button {
+    .event p {
+      margin: 0;
+      font-size: 1.1em;
+    }
+    .event a {
       display: inline-block;
+      margin-top: 15px;
       padding: 12px 25px;
-      background-color: #a0522d;
-      color: #fff;
+      background-color: #7b2030;
+      color: #fff8f0;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 8px;
       font-size: 1em;
-      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+    .event a:hover {
+      background-color: #a0454f;
     }
     footer {
-      background-color: #fff0f5;
+      background-color: #7b2030;
       padding: 20px;
       text-align: center;
-      color: #8b5c40;
+      color: #fff8f0;
       margin-top: 30px;
     }
   </style>
@@ -64,42 +86,48 @@
 
 <header>
   <h1>Allen & Callishia</h1>
-  <p>Are Getting Married — 23rd August 2025</p>
+  <p>A Fairytale Begins — 23rd August 2025</p>
 </header>
 
 <section>
-  <h2>Our Wedding Events</h2>
+  <h2>Wedding Celebrations</h2>
 
   <div class="event">
     <p class="event-date">6th June 2025</p>
     <p><strong>Registration</strong> at Allen's House</p>
-    <a href="#rsvp" class="rsvp-button">RSVP Here</a>
+    <a href="mailto:allenandcallishia@gmail.com?subject=RSVP%20for%20Registration">RSVP Here</a>
   </div>
 
   <div class="event">
-    <p class="event-date">22nd August 2025</p>
-    <p><strong>Mehendi Function & Rehearsal Dinner</strong></p>
+    <p class="event-date">20th August 2025, 5:00 PM onwards</p>
+    <p><strong>Mehendi Function</strong> at Callishia's House</p>
   </div>
 
   <div class="event">
-    <p class="event-date">23rd August 2025</p>
-    <p><strong>Wedding Ceremony</strong></p>
+    <p class="event-date">Date TBC</p>
+    <p><strong>1000 Hail Marys</strong> at Allen's House</p>
   </div>
 
   <div class="event">
-    <p class="event-date">24th August 2025</p>
-    <p><strong>Homecoming</strong></p>
+    <p class="event-date">Date TBC</p>
+    <p><strong>Rehearsal</strong> at St. Mary's Church, Bambalapitiya</p>
   </div>
-</section>
 
-<section id="rsvp">
-  <h2>RSVP for Registration</h2>
-  <p>We'd love to have you with us at the Registration on 6th June 2025 at Allen's House. Please click below to confirm your attendance!</p>
-  <a href="mailto:allenandcallishia@gmail.com?subject=RSVP%20for%20Registration" class="rsvp-button">Send RSVP Email</a>
+  <div class="event">
+    <p class="event-date">23rd August 2025, 3:30 PM</p>
+    <p><strong>Wedding Ceremony</strong> at St. Mary's Church, Bambalapitiya</p>
+    <p>Followed by <strong>Reception</strong> at Cinnamon Lakeside from 7:00 PM onwards</p>
+  </div>
+
+  <div class="event">
+    <p class="event-date">26th August 2025</p>
+    <p><strong>Homecoming</strong> at Allen's House</p>
+  </div>
+
 </section>
 
 <footer>
-  <p>With love, Allen & Callishia</p>
+  <p>With all our love, Allen & Callishia</p>
 </footer>
 
 </body>
