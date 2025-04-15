@@ -10,35 +10,61 @@
     body {
       font-family: 'Quicksand', sans-serif;
       margin: 0;
-      background-color: #fdf8f4;
+      background-image: url('mughal-arch-background.jpg'); /* Replace with your Mughal arch image */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       color: #4a2c2a;
     }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 248, 240, 0.92);
+      z-index: -1;
+    }
+
     header {
-      background-color: #7b2030;
+      background-color: rgba(123, 32, 48, 0.9);
       padding: 50px 20px;
       text-align: center;
       color: #fff8f0;
     }
+
+    header img {
+      max-width: 120px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
     header h1 {
       font-family: 'Playfair Display', serif;
       font-size: 3.5em;
       margin: 0;
       color: #ffd9c0;
     }
+
     header p {
       font-size: 1.3em;
       margin-top: 10px;
     }
+
     section {
       padding: 40px 20px;
       text-align: center;
     }
+
     section h2 {
       font-size: 2.5em;
       margin-bottom: 25px;
       font-family: 'Playfair Display', serif;
       color: #7b2030;
     }
+
     .event {
       margin-bottom: 30px;
       border: 2px solid #d8bfa0;
@@ -49,16 +75,19 @@
       margin-left: auto;
       margin-right: auto;
     }
+
     .event-date {
       font-weight: bold;
       color: #a0454f;
       font-size: 1.2em;
       margin-bottom: 5px;
     }
+
     .event p {
       margin: 0;
       font-size: 1.1em;
     }
+
     .event a {
       display: inline-block;
       margin-top: 15px;
@@ -70,11 +99,13 @@
       font-size: 1em;
       transition: background-color 0.3s;
     }
+
     .event a:hover {
       background-color: #a0454f;
     }
+
     footer {
-      background-color: #7b2030;
+      background-color: rgba(123, 32, 48, 0.9);
       padding: 20px;
       text-align: center;
       color: #fff8f0;
@@ -85,8 +116,9 @@
 <body>
 
 <header>
+  <img src="logo.png" alt="Allen & Callishia's Logo">
   <h1>Allen & Callishia</h1>
-  <p>Surrounded By Love, in the presence of God — 23rd August 2025</p>
+  <p>Surrounded by Love, in the Presence of God</p>
 </header>
 
 <section>
@@ -95,7 +127,7 @@
   <div class="event">
     <p class="event-date">6th June 2025</p>
     <p><strong>Registration</strong> at Allen's House</p>
-    <a href="mailto:allencallishiawedding2025@gmail.com?subject=RSVP%20for%20Registration">RSVP Here</a>
+    <a href="mailto:allenandcallishia@gmail.com?subject=RSVP%20for%20Registration">RSVP Here</a>
   </div>
 
   <div class="event">
